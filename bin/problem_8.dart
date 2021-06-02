@@ -48,7 +48,7 @@ void main() {
       user += 1;
 
     }
-            print('User: $user VS Computer: $comp');
+      print('User: $user VS Computer: $comp');
 
   }
 
