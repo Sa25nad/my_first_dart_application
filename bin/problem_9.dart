@@ -9,6 +9,7 @@ void main() {
     print('''Welcome to Guess Game
     Write 0 to exit from the game
     Enjoy the game''');
+    
     stdout.write('Guess a number:  '); // to make the user write
     var userGuess = int.tryParse(stdin.readLineSync());
     var random = Random().nextInt(100); // from 0 to 100
